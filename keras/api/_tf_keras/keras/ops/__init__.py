@@ -83,6 +83,7 @@ from keras.src.ops.nn import leaky_relu
 from keras.src.ops.nn import log_sigmoid
 from keras.src.ops.nn import log_softmax
 from keras.src.ops.nn import max_pool
+from keras.src.ops.nn import modified_elu
 from keras.src.ops.nn import moments
 from keras.src.ops.nn import multi_hot
 from keras.src.ops.nn import normalize

@@ -539,6 +539,7 @@ def elu(x, alpha=1.0):
         return Elu(alpha).symbolic_call(x)
     return backend.nn.elu(x, alpha=alpha)
 
+
 @keras_export(["keras.ops.modified_elu", "keras.ops.nn.modified_elu"])
 def modified_elu(x, alpha=1.0):
     """Modified Exponential Linear Unit activation function.
